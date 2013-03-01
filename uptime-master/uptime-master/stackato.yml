@@ -1,0 +1,12 @@
+name: uptime
+instances: 1
+framework:
+  type: node
+mem: 256
+services:
+  fs: filesystem
+env:
+  PING_HISTORY: 2592000000
+  QOS_AGGREGATION_INTERVAL: 600000
+  UPDATE_INTERVAL: 60000
+  VERBOSE: false
